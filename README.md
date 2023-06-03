@@ -11,29 +11,55 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
-```Python
-
-
+```
+''' 
+Program to mark the maximum of marks using the list method sort
+Developed by: Jayasri Dodda
+RegisterNumber: 212222240028
+'''
+def max_marks(marks):
+    marks.sort()
+    return marks[-1]
 
 ```
 
 ii)	# To find the maximum marks using the list method max().
-```Python
-
-
+```
+''' 
+Program to find the maximum marks using the list method max().
+Developed by: 
+RegisterNumber: 
+'''
+def max_marks(marks):
+    marks.sort()
+    return marks[-1]
 
 ```
 
 iii) # To find the maximum marks without using builtin functions.
-```Python
-
-
-
 ```
-## Sample Input and Output
-![output](./img/max_marks1.jpg) 
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: 
+RegisterNumber: 
+'''
+def max_marks(list1):
+    max=list1[0]
+    for i in list1:
+        if i > max:
+            max = i
+    return max
+```
 
 ## Output:
+i)	# To find the maximum of marks using the list method sort.
+![Screenshot (41)](https://github.com/jayasridodda/FindMaximum/assets/123259278/5709e110-2560-4315-88d8-85d88cfa1fa6)
+ii)	# To find the maximum marks using the list method max().
+![Screenshot (42)](https://github.com/jayasridodda/FindMaximum/assets/123259278/ece85640-6d9f-4852-be2a-e627b5fbf100)
+iii) # To find the maximum marks without using builtin functions.
+![Screenshot (43)](https://github.com/jayasridodda/FindMaximum/assets/123259278/7f0b9e3b-c62b-4e92-96f6-5a300ddec373)
+
+
 
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
