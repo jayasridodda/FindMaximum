@@ -31,8 +31,8 @@ Developed by: JAYASRI DODDA
 RegisterNumber: 212222240028
 '''
 def max_marks(marks):
-    marks.sort()
-    return marks[-1]
+    maxi=max(marks)
+    return maxi
 
 ```
 
